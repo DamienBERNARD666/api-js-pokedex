@@ -1,0 +1,41 @@
+@font-face {
+    font-family: "Pokemon";
+    src: url("font/Pokemon_Solid.ttf") format("truetype");
+}
+
+body {
+    background: url('img/bg.jpg');
+    color: white;
+}
+
+h1 {
+    
+    font-family: 'Pokemon', cursive;
+}
+
+
+.pokemon-info {
+    background-color: black !important;
+    text-align: left;
+    color: white !important;
+}
+
+.card-body>p:first-child {
+    font-family: 'Pokemon', cursive;
+    font-size: 40px;
+}
+
+.card-body>p {
+    text-align: center;
+}
+
+.types>span {
+    display: flex;
+    justify-content: center;
+    font-weight: bold;
+}
+
+.description {
+    padding: 1rem   ;
+}
+
