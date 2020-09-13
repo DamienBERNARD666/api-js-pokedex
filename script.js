@@ -2,6 +2,7 @@ $("form").submit(function(e) {
     e.preventDefault();
     //Retire la vue prècédente 
     $('#liste').empty();
+    $('#img-pokemon').empty();
 
     //Récupére la valeur saisie par l'utilisateur
     let id = e.currentTarget.pokemon.value;
